@@ -12,7 +12,7 @@ node {
     }
 
     stage('Checkout') {
-        git 'https://github.com/bertjan/spring-boot-sample'
+        git 'https://github.com/TechBotzz/spring-boot-sample'
     }
 
     stage('Version') {
